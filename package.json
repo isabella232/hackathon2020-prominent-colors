@@ -4,8 +4,7 @@
   "description": "Extract prominent colors from a photo.",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "debug-run": "NODE_ENV=debug-run node src/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
