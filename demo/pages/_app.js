@@ -1,18 +1,12 @@
-import { Fragment } from 'react';
-import Head from 'next/head';
+import { Fragment } from "react";
+import Head from "next/head";
 
-const Home = () => {
+const App = ({ Component, pageProps }) => {
   return (
     <Fragment>
       <Head>
         <title>hackathon2020-prominent-colors-demo</title>
       </Head>
-
-      <main>
-        <h1 className="title">
-          Welcome to hackathon2020-prominent-colors-demo
-        </h1>
-      </main>
 
       <style jsx global>{`
         html,
@@ -28,8 +22,10 @@ const Home = () => {
           box-sizing: border-box;
         }
       `}</style>
+
+      <Component {...pageProps} />
     </Fragment>
   );
 };
 
-export default Home;
+export default App;
