@@ -15,5 +15,23 @@
   "bugs": {
     "url": "https://github.com/CondeNast/hackathon2020-prominent-colors/issues"
   },
-  "homepage": "https://github.com/CondeNast/hackathon2020-prominent-colors#readme"
+  "homepage": "https://github.com/CondeNast/hackathon2020-prominent-colors#readme",
+  "dependencies": {
+    "node-vibrant": "^3.1.5"
+  },
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.js": [
+      "prettier --write"
+    ]
+  }
 }
