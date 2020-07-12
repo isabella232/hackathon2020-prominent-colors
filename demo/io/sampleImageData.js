@@ -1,13 +1,14 @@
 import { promises as fs } from "fs";
 import { getSerializablePalette } from "../../src";
 
-const pathToImages = "../sample-images";
+const pathToImages = "../sample-images/256";
+const width = "256";
 
 export const getSampleImageData = async (filename) => {
   const palette = await getSerializablePalette(`${pathToImages}/${filename}`);
 
-  const id = filename.split("_")[1];
-  const width = filename.split("_")[2].split(".")[0];
+  // vogue-uk_5d544f044653570008cec696.jpg.html => 5d544f044653570008cec696
+  const id = filename.split(".")[0].split("_").reverse()[0];
 
   return {
     id,

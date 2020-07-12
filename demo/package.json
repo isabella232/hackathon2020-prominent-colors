@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
-    "start": "next start"
+    "start": "next start",
+    "percy-snapshot": "next build && next export && npx percy snapshot out/sample"
   },
   "dependencies": {
     "next": "^9.4.4",
