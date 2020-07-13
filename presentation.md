@@ -34,4 +34,4 @@ this also allows us to do visual regression testing. what this means is that if 
 
 for example, imagine an engineer decided that it would be more performant to use smaller source images when generating the colour palette
 
-on the left is the output for images 1024px wide, and on the right is the output for images 256px wide: https://percy.io/conde-nast/hackathon2020-prominent-colors/builds/6091916
+on the left is the output for images 1024px resolution, and on the right is the output for images 256px resolution: https://percy.io/conde-nast/hackathon2020-prominent-colors/builds/6091916
