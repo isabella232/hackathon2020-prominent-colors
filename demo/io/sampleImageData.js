@@ -1,7 +1,7 @@
 import { promises as fs } from "fs";
 import { getSerializablePalette } from "../../src";
 
-const width = "256";
+const width = "1024";
 const pathToImages = `../sample-images/${width}`;
 
 export const getSampleImageData = async (filename) => {
