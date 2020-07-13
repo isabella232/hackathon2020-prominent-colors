@@ -61,7 +61,7 @@ const Sample = ({ data }) => (
       }
 
       .swatch__color {
-        width: 40%;
+        width: 50%;
         padding-top: 25%;
       }
     `}</style>
