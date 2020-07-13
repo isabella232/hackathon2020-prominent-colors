@@ -48,17 +48,17 @@ const Sample = ({ data }) => (
         justify-content: space-between;
         align-items: center;
 
-        padding: 1vw;
+        padding: 2vw;
       }
 
       .swatch__name {
         margin: 0;
 
-        font-size: 4vw;
+        font-size: 3vw;
       }
 
       .swatch__color {
-        width: 50%;
+        width: 40%;
         padding-top: 25%;
       }
     `}</style>
