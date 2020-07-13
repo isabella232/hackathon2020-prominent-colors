@@ -44,18 +44,13 @@ const Sample = ({ data }) => (
       }
 
       .swatch {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-
-        padding: 2vw;
+        padding: 1vw;
       }
 
       .swatch__name {
         margin: 0;
 
-        font-size: 2vw;
+        font-size: 4vw;
 
         width: 60%;
       }
