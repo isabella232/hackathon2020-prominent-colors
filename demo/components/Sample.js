@@ -45,6 +45,7 @@ const Sample = ({ data }) => (
 
       .swatch {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
 
@@ -54,7 +55,9 @@ const Sample = ({ data }) => (
       .swatch__name {
         margin: 0;
 
-        font-size: 3vw;
+        font-size: 2vw;
+
+        width: 60%;
       }
 
       .swatch__color {
